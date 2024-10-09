@@ -12,5 +12,6 @@ document.getElementById("countDown").onclick=function(){
 }
 
 document.getElementById("rst").onclick=function(){
-    document.getElementById("updowncount").innerHTML=0;
+    count=0;
+    document.getElementById("updowncount").innerHTML=count;
 }
